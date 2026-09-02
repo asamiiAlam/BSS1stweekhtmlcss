@@ -1,0 +1,201 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    background:black;
+    color:white;
+    line-height:1.6;
+
+}
+.wrapper{
+    min-height:100vh;
+    background:linear-gradient(to bottom,rgba(255,64,50,0.8),
+    rgba(71,17,116,0.9)),url('../images/bg.avif')
+    no-repeat center center/cover; 
+
+
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px;
+
+}
+
+.header .logo{
+   width:100px;
+
+}
+.header .header-right{
+    display:flex;
+    align-items:center;
+    gap:25px;
+
+
+}
+
+.header .header-right i{
+    margin-right:5px;
+}
+
+.header .header-right a{
+    color:white;
+
+}
+
+.header .header-right a:hover{
+
+    color:purple;
+}
+
+.main-content{
+    display:flex;
+    max-width:1100px;
+    margin:0 auto;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    padding:0 40px;
+    gap:50px;
+    
+}
+
+
+.main-content form{
+    flex:1;
+    
+}
+.main-content .text-container{
+    flex:1;
+    
+}
+
+.form-group{
+    margin-bottom:20px;
+
+}
+.form-group label{
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.form-group input, .input,
+.form-group textarea{
+    width:100%;
+    padding:10px;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    font-size:14px;
+    padding:10px;
+    border:0;
+    border-radius:5px;
+    background:rgba(255,255,255,0.1);
+    color:white;
+    outline:0;
+
+}
+
+.form-group textarea {
+    resize: none;
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+
+.btn{
+    display:block;
+    padding:15px 20px;
+    border-radius:5px;
+    width:100%;
+    border:none;
+    background:linear-gradient(to right,rgba(255,64,50,0.8),
+    rgba(71,17,116,0.9));
+    color:white;
+    font-size:16px;
+}
+
+
+.btn:hover{
+    background:linear-gradient(to right,rgba(71,17,116,0.9),
+    rgba(255,64,50,0.8));
+    cursor:pointer;
+}
+
+.text-container h1{
+    font-size:50px;
+    line-height:1.2;
+
+
+}
+.text-container p{
+    font-size:18px;
+    margin:20px 0;
+    color:rgba(255,255,255,0.7);
+}
+@media(max-width: 768px) {
+
+    .header{
+
+        padding:20px;
+    }
+    .header,
+    .header .header-right
+    {
+        flex-direction:column;
+        gap:10px;
+
+
+        
+    }
+
+    .main-content{
+
+        flex-direction:column-reverse;
+        justify-content:start;
+        margin:auto;
+
+
+
+    }
+
+    .main-content form,
+    .main-content .text-container
+    {
+        width:100%;
+        max-width:500px;
+        margin:auto;
+        padding:0 20px;
+    }
+    
+    .main-content p{
+        display:none;
+
+    }
+    
+    .main-content h1{
+        font-size:30px;
+        text-align:center;
+        line-height:1.4;
+
+    }
+
+}
+
+@media(max-width: 480px) {
+
+    .main-content {
+        margin: 0 auto;
+    }
+}
+
