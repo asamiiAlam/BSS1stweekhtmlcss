@@ -8,7 +8,7 @@ A collection of responsive landing pages and multi-page websites built with plai
 | --- | --- | --- |
 | [Leno](#-leno--health--productivity-app-landing-page) | Health & productivity app landing page | [View](https://leno2-6excdqdw0-sam-d0a0.vercel.app/) |
 | [Lumina Creative](#-lumina-creative--agency-portfolio-website) | Creative agency portfolio site | [View](https://lumisami.netlify.app/) |
-| [Tutor](#-tutor--video-course-landing-page) | Online video course landing page | [View](https://remarkable-cupcake-e742b3.netlify.app/) |
+| [Tutor](#-tutor--video-course-landing-page) | Online video course landing page | [View])(https://bespoke-paletas-69c2fb.netlify.app/) |
 | [Landing Form Project](#-landing-form-project) | Coming-soon page with contact form | [View](https://cerulean-cassata-97dfa4.netlify.app/) |
 
 ---
